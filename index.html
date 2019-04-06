@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title></title>
+<meta charset="utf-8">
+	</style>
+
+</head>
+
+<body>
+
+	<div class="parent">
+
+		<div class="txt">
+
+		Привет!Сегодня я хочу проверить тебя на знание HTML и CSS.Готов?
+
+	</div>
+
+	<div class="button1" id="button1">
+
+		<div class="button-txt">
+
+			Первый адский вопрос<br><i class="fas fa-fire"></i>
+
+		</div>
+
+	</div>
+
+	<div class="button2" id="button2">
+
+		<div class="button-txt">
+
+			Второй адский вопрос<br><i class="fas fa-fire"></i>
+
+		</div>
+
+	</div>
+
+	<div class="button3" id="button3">
+
+		<div class="button-txt">
+
+			Третий адский вопрос<br><i class="fas fa-fire"></i>
+
+		</div>
+
+	</div>
+
+	</div>
+
+	<script type="text/javascript">
+
+		let button1 = document.getElementById('button1');
+
+		let button2 = document.getElementById('button2');
+
+		let button3 = document.getElementById('button3');
+
+
+
+		 button1.onclick=function(){
+
+		 	let answer= prompt('Сolor задает цвет шрифта или контейнера?')
+
+		 	if (answer===('шрифта')){
+
+		 		alert('Правильно')
+
+		 	}
+
+		 	
+
+		 	else{
+
+		 		alert('Не правильно!Попробуй еще')
+
+		 	}
+
+		 }
+
+		 button2.onclick=function(){
+
+		 	let answer= prompt('Тег br закрывающийся или нет?')
+
+		 	if (answer===('нет')){
+
+		 		alert('Правильно')
+
+		 	}
+
+		 	
+
+		 	else{
+
+		 		alert('Не правильно!Попробуй еще')
+
+		 	}
+
+		 }
+
+		 button3.onclick=function(){
+
+		 	let answer= prompt('Любишь JS')
+
+		 	if (answer===('да')){
+
+		 		alert('Правильно')
+
+		 	}
+
+		 	
+
+		 	else{
+
+		 		alert('Не правильно!Попробуй еще')
+
+		 	}
+
+		 }
+
+	</script>
